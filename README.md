@@ -27,6 +27,6 @@
 
 ```
 
-#LICENSE
+# license
 
 MIT

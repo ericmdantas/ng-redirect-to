@@ -8,7 +8,7 @@
     {
       var _link = function(scope, element, attrs)
       {
-        element.on('click', function()
+        element.on('click', attrs.selector, function()
         {
           var _isHttp = /^http/;
           var _url = scope.dest;

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "dist/ng-redirect-to.min.js",
   "scripts": {
-    "test": "gulp coverage"
+    "test": "gulp coverage",
+    "tw": "gulp unit_test_watch"
   },
   "dependencies": {},
   "devDependencies": {

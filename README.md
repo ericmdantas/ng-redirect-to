@@ -6,7 +6,9 @@
 # install
 
 ```
+
   $ bower install ng-redirect-to --save
+  
 ```
 
 # usage
@@ -23,7 +25,7 @@
   
   <div emd-redirect-to="http://some.website.here/"></div> <!-- changes the whole page -->
   
-  <div emd-redirect-to="https://another.website.here/"></div> < !-- changes the whole page -->
+  <div emd-redirect-to="https://another.website.here/"></div> <!-- changes the whole page -->
 
 ```
 

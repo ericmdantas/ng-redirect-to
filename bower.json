@@ -1,7 +1,7 @@
 {
   "name": "ng-redirect-to",
   "main": "dist/ng-redirect-to.min.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/ericmdantas/ng-redirect-to",
   "authors": [
     "Eric Mendes Dantas <ericdantas0@gmail.com>"

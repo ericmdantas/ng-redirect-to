@@ -29,6 +29,15 @@ gulp.task('unit_test', function(done)
     }, done);
 })
 
+gulp.task('unit_test_watch', function(done)
+{
+    karma.start({
+        configFile: __dirname + '/karma.conf.js',
+        singleRun: false,
+        browsers: ['PhantomJS']
+    }, done);
+})
+
 gulp.task('coverage', ['unit_test'], function()
 {
     gulp
